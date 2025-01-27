@@ -96,13 +96,14 @@ h4 {
     color: #B9CCC8;
     }
 
-/*Estilos del Main*/   
+/*Estilos del Main*/ 
+
 main {
     flex: 1;
     }
 
 .formulario-contacto {
-    background-image: url('../assets/img/CAMERA.png');
+    background-image: url('../assets/img/camera.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -203,6 +204,14 @@ main {
     padding: 20px;
     color: #495057;
 }
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin: 10px 0;
+    }
 
 .section {
     display: flex;

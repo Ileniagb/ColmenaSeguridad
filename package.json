@@ -1,0 +1,20 @@
+{
+  "name": "desarrollo-copy",
+  "version": "1.0.0",
+  "description": "desarrollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ileniagb/ColmenaSeguridad.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ileniagb/ColmenaSeguridad/issues"
+  },
+  "homepage": "https://github.com/Ileniagb/ColmenaSeguridad#readme"
+}
