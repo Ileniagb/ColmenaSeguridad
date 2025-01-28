@@ -205,6 +205,15 @@ main {
     color: #495057;
 }
 
+.container4 {
+  height: 380px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: linear-gradient(to right, #b9ccc8 70%, #016256);
+  text-align: left;
+}
+
 .cta-container {
     display: flex;
     justify-content: center;
