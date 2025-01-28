@@ -208,6 +208,15 @@ flex: 1;
     color: $color-texto;
 }
 
+.container4 {
+    height: 380px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to right, $color-gris-claro 70%, $color-primario);
+    text-align: left;
+}
+
 .cta-container {
     display: flex;
     justify-content: center;

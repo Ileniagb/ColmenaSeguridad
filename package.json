@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ileniagb/ColmenaSeguridad/issues"
   },
-  "homepage": "https://github.com/Ileniagb/ColmenaSeguridad#readme"
+  "homepage": "https://github.com/Ileniagb/ColmenaSeguridad#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
 }
