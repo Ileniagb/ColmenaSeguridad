@@ -1,0 +1,20 @@
+.hogar-lista,
+.empresa-lista,
+.contacto-lista {
+  list-style-type: disc;
+  padding-left: 30px;
+
+  li {
+      margin-bottom: 15px;
+  }
+
+  h3 {
+      margin-top: 0;
+  }
+}
+
+@include respond-to('sm') {
+  h2 {
+      margin-top: 20px;
+  }
+}
