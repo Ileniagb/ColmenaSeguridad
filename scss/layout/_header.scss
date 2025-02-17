@@ -1,0 +1,28 @@
+header {
+    background-color: map-get($colors, 'primary');
+    padding: 0;
+  
+    .navbar-brand {
+        img {
+            height: 80px;
+            width: auto;
+        }
+    }
+  
+    .navbar-nav {
+        .nav-link {
+            color: map-get($colors, 'light-gray');
+            font-size: 1rem;
+  
+            &.active {
+                font-weight: 700;
+                border-bottom: 2px solid map-get($colors, 'light-gray');
+            }
+        }
+    }
+  
+    .form-control {
+        border-radius: 20px;
+    }
+  }
+  

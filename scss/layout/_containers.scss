@@ -1,0 +1,64 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .container1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #d2e8e3;
+    text-align: left;
+  }
+  
+  .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: map-get($colors, 'light-gray');
+    text-align: left;
+  }
+  
+  .container3 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: map-get($colors, 'text');
+  }
+  
+  .container4 {
+    height: 380px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: linear-gradient(to right, map-get($colors, 'light-gray') 70%, map-get($colors, 'primary'));
+    text-align: left;
+  }
+  
+  .section {
+    display: flex;
+    align-items: start;
+    margin-bottom: 40px;
+    gap: 40px;
+  
+    &:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+  
+    @include respond-to('sm') {
+        flex-direction: column;
+    }
+  }
+  
+  .content {
+    flex: 1;
+    color: map-get($colors, 'text');
+    line-height: 1.6;
+  }
+  
+  .cta-container {
+    @include flex-center;
+    min-height: 100px;
+    margin: 10px 0;
+  }
